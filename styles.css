@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Sans+Narrow:wght@700&display=swap');
+
+html {
+		height: 100%;
+}
+
+* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+}
+
+body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		font-size: 1em;
+		background: #2f3c4d;
+		background-image: url('https://www.dropbox.com/s/xnczkdt74z8ue4a/tackice-na-svakih-8-px-bele-na-crnoj-podlozi.png?raw=1'), url('https://www.dropbox.com/s/fbj6qgs1hooxonp/uzburkano-more-bg-min.png?raw=1');
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
+}
+
+.wrapper {
+		width: 20em;
+		background-color: white;
+		box-shadow: 0px 0px 64px rgba(31, 38, 47, 0.94);
+		border: 1px solid #313d4c;
+}
+
+header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: 1.375em;
+		border-top: 1px solid #878BBA;
+		background: rgb(107,127,158);
+		background: linear-gradient(45deg, rgba(107,127,158,1) 0%, rgba(99,97,150,1) 100%);
+}
+
+img {
+		margin-top: 1.4em;
+		width: 3.5em;
+		height: 3.5em;
+}
+
+ul {
+		display: flex;
+		justify-content: space-evenly;
+		padding: 0;
+		font-family: "PT Sans";
+		font-size: .8em;
+		border-bottom: 1px solid #D1D7ED;
+		background: #EDF0FB;
+		color: #6C77A4;
+		list-style: none;
+}
+
+li a{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 1.3em 0;
+}
+
+li a img{
+		margin: 0;
+		width: 1.8em;
+		height: 1.8em;
+}
+
+li a span {
+		padding-top: .4em;
+}
+
+a {
+		color: #67719a;
+		text-decoration: none;
+}
+
+a:hover {
+		opacity: .8;
+}
+
+h1 {
+		padding-top: .5em;
+		padding-bottom: 1em;
+		font-family: "PT Sans Narrow";
+		font-size: 1em;
+		color: rgba(255, 255, 255, .7);
+}
+
+main {
+		padding: 2em;
+		padding-top: 1.5em;
+}
+
+h2 {
+		margin-bottom: .5em;
+		font-family: "PT Sans Narrow";
+		color: #4F6078;
+}
+
+p {
+		font-family: "PT Sans";
+		font-size: .875em;
+		color: #607188;
+		line-height: 1.5em;
+		margin-bottom: 2em;
+}
+
+.btn-wrapper {
+		display: flex;
+		justify-content: center;
+}
+
+button {
+		width: 10em;
+		height: 3em;
+		border: none;
+		background: #68749b;
+		color: rgba(255, 255, 255, .7);
+		border-radius: 1.5em;
+		box-shadow: 0 0 24px rgba(102, 112, 153, 0.4);
+}
+
+button:hover {
+		background: white;
+		box-shadow: none;
+		border: 4px solid #68749b;
+		color: #68749b;
+		cursor: pointer;
+}
+
+/* Small Screens */
+
+@media (max-width: 480px) {
+		body {
+				background-image: none;
+		}
+
+		.wrapper {
+				width: 100%;
+				box-shadow: none;
+				min-height: 100vh;
+				border: none;
+		}
+
+		header {
+				border: none;
+		}
+}
