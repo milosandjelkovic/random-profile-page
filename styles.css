@@ -137,7 +137,7 @@ button:hover {
 
 /* Small Screens */
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
 		body {
 				background-image: none;
 		}
