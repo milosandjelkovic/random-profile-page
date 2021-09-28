@@ -18,7 +18,7 @@ body {
 		height: 100%;
 		font-size: 1em;
 		background: #2f3c4d;
-		background-image: url('https://www.dropbox.com/s/xnczkdt74z8ue4a/tackice-na-svakih-8-px-bele-na-crnoj-podlozi.png?raw=1'), url('https://www.dropbox.com/s/fbj6qgs1hooxonp/uzburkano-more-bg-min.png?raw=1');
+		background-image: url('img/background-dots.png'), url('img/sea.png');
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 }
